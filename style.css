@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 微軟正黑體;
-  
+    
 }
 
+body{
+    background-color: rgb(108, 153, 190);
+ }
 #card {
     background-image: url(https://images.unsplash.com/photo-1483449720373-5d67a7f26fdb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
     /* cover:圖片滿版 */
@@ -15,6 +18,7 @@
     padding: 200px 70px 100px;
     /* 配合下方hover:轉場時間 */
     transition: 0.5s;
+    
 
 }
 /* 選取器:hover-滑入元素後樣式 */
@@ -51,7 +55,7 @@ letter-spacing: 80px;
 padding-left: 80px;
 margin-top: 30px;
 opacity: 50%;
-color:rgb(64, 64, 139);
+color:rgb(41, 41, 85);
 
 }
 
