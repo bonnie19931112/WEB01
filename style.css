@@ -13,13 +13,45 @@
     margin: 100px auto 0;
     /* 上 左右 下 */
     padding: 200px 70px 100px;
+    /* 配合下方hover:轉場時間 */
+    transition: 0.5s;
 
 }
-
+/* 選取器:hover-滑入元素後樣式 */
+#card:hover {
+    /* 變形尺寸倍數 */
+    transform: scale(1.2);
+}
 #content {
-    background-color: rgba(240, 251, 255, 0.315);
+    background-color: rgba(255, 255, 255, 0.116);
     color:rgb(255, 255, 255);
-    padding: 20px 50px;
+    padding: 20px 30px;
     
 
 }
+
+ul{
+    padding-left: 30px;
+}
+ li {
+     margin-bottom: 8px
+ }
+h1 {
+    margin-bottom: 8px;
+}
+h2{
+    margin-bottom: 8px;
+}
+
+footer{
+
+font-size: 72px;
+text-align: center;
+letter-spacing: 80px;
+padding-left: 80px;
+margin-top: 30px;
+opacity: 50%;
+color:rgb(64, 64, 139);
+
+}
+
